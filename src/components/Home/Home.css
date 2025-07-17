@@ -53,32 +53,3 @@
   font-size: 1.1rem;
 }
 
-
-
-
-@media (max-width: 768px) {
-  .home-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    height: auto;
-  }
-
-  .slider-container,
-  .welcome-content {
-    width: 80%;
-    min-height: 250px;
-  }
-
-  .welcome-content {
-    padding: 1.5rem;
-  }
-
-  .welcome-content h1 {
-    font-size: 1.5rem;
-  }
-
-  .welcome-content p {
-    font-size: 1rem;
-  }
-}
