@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--secondary-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*--primary-color: #7F4F24;
+  --secondary-color: #F2F3AE;
+  --terciary-color: #86BBD8;
+  --hover-color: #c7742b;
+  --text-color: #3E4E50;*/
+
+  --primary-color: #e9e0d1;
+  --secondary-color: #91a398;
+  --terciary-color: #33605a;
+  --button-color: #b6a98b;
+  --img-background: #4b4436;
+  --hover-color: #093d36;
+  --text-color: #070001;
+
+  
+  
+}
+
+body, html{
+  font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
+}
+
+.button-default{
+  all: unset;
+  background-color: var(--button-color); 
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--main-font);
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.button-default:hover {
+  background-color: var(--hover-color); 
+  color: white;
+}
+
+/* Aplica a todos los scrolls del proyecto */
+* {
+  scrollbar-width: thin;               /* Para Firefox */
+  scrollbar-color: var(--terciary-color) var(--primary-color); /* Para Firefox */
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--terciary-color);
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color); /* para efecto de padding */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--hover-color);
+}
+
+
+
+

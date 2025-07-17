@@ -1,0 +1,35 @@
+.itemConteinerSideBar{
+    display: grid;
+    overflow-x: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 7rem));
+    background-color: var(--terciary-color);
+    height: 25rem;
+    width: 9rem;
+    /*padding-left: 0;*/
+    padding: 1rem 0rem 1rem 0rem; 
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.linkSidebar{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .itemConteinerSideBar{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        padding: 0.5;
+        gap: 2rem;
+        height: fit-content; 
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
+}

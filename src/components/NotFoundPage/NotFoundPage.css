@@ -1,0 +1,41 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+.not-found .icon {
+  font-size: 4rem;
+  color: var(--hover-color);
+  margin-bottom: 1rem;
+}
+
+.not-found h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.not-found p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.back-home {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--hover-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+  background-color: #1e363b;
+}

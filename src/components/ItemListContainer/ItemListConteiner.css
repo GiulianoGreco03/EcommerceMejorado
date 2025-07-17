@@ -1,0 +1,36 @@
+.itemConteiner{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.itemConteinerList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 17rem));
+    justify-content: start;
+    width: 100%;
+    gap: 1rem;
+    row-gap: 1rem;
+    place-items: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    .itemConteiner{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .itemConteinerList{
+       justify-content: center;
+    }
+}

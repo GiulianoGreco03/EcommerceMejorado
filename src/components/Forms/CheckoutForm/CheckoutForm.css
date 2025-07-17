@@ -1,0 +1,36 @@
+.formulario-contacto {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.upload-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--terciary-color);
+    height: 4rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    color: black;
+}
+
+input {
+    background-color: var(--terciary-color);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+}
