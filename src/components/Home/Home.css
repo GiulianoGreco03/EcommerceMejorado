@@ -42,7 +42,6 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
-  min-width: 300px;
 }
 
 .welcome-content h1 {
@@ -55,10 +54,7 @@
 }
 
 
-.button-default:hover {
-  background-color: var(--hover-color);
-  color: white;
-}
+
 
 @media (max-width: 768px) {
   .home-container {
@@ -70,7 +66,7 @@
 
   .slider-container,
   .welcome-content {
-    width: 100%;
+    width: 80%;
     min-height: 250px;
   }
 
